@@ -1931,6 +1931,10 @@ nav .menu-nav .icons-desing span:hover {
   background-image: url("http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/bg/testimonial-bg.jpg");
 }
 
+.people-section .owl-dots .owl-dot {
+  outline: none;
+}
+
 .people-section .people-section .owl-carousel .owl-nav {
   display: block;
 }
@@ -1948,6 +1952,13 @@ nav .menu-nav .icons-desing span:hover {
 
 .people-section .owl-dots .owl-dot.active span:hover {
   background-color: red;
+}
+
+.people-section .owl-theme .owl-dots .owl-dot span {
+  background-color: white;
+  width: 18px;
+  height: 6px;
+  margin-top: 15px;
 }
 
 .people-section .owl-carousel .owl-nav button.owl-next {
@@ -2371,5 +2382,239 @@ footer .realtive-contact {
 
 .bottom-position {
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .edulearn {
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 0 15px 0;
+  }
+  .welcome {
+    display: block;
+  }
+  .flexdiv {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+  .mail-us {
+    display: none !important;
+  }
+  .contact-us {
+    display: none !important;
+  }
+  #section-liberary .trending {
+    margin-bottom: 20px;
+  }
+  #section-liberary {
+    margin-top: 120px;
+  }
+  #nav-bar {
+    display: none;
+  }
+  .slider-item-content {
+    width: 100%;
+  }
+  .slider-item-content h1 {
+    font-size: 20px !important;
+  }
+  .slider-item-content p {
+    display: none;
+  }
+  .slider-item-content a {
+    padding: 8px 10px !important;
+    font-size: 14px !important;
+  }
+  .main-slider .owl-dots {
+    display: none;
+  }
+  .side-acordion {
+    position: static;
+  }
+  #about-us-section h3 {
+    margin: 15px;
+  }
+  #about-us-section p {
+    margin: 15px 0 15px;
+  }
+  .popular-section .title-text p {
+    padding: 10px;
+  }
+  .acheivements {
+    padding: 50px 0;
+  }
+  .acheivements .acheivements-countent h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .acheivements .rs-counter-list h2 {
+    font-size: 40px;
+  }
+  .acheivements .rs-counter-list h4 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .events-section {
+    padding: 50px 0;
+  }
+  .owl-dots {
+    display: none;
+  }
+  .owl-nav {
+    display: none;
+  }
+  .person-section {
+    padding: 50px 0 !important;
+  }
+  .person-section .title-text h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .person-section .title-text p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .web-desing-section {
+    padding: 50px 0 !important;
+  }
+  .web-desing-section .course-div .web-desing-text h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .web-desing-section .course-div .web-desing-text p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .news-section {
+    padding: 50px 0 !important;
+  }
+  .news-section .title-text h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .news-section .title-text p {
+    font-size: 14px;
+  }
+  .our-section {
+    padding: 50px 0 !important;
+  }
+  .our-section .title-text h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .our-section .title-text p {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .people-section {
+    padding: 50px 0 !important;
+  }
+  .people-section .title-text h2 {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  .people-section .title-text p {
+    font-size: 14px;
+  }
+  .people-section .owl-dots {
+    display: block;
+  }
+  .footer-contact {
+    position: static;
+  }
+  .footer-contact .contact-item i {
+    font-size: 28px !important;
+    margin-bottom: 12px !important;
+  }
+  .footer-contact .contact-item .contact-title {
+    margin-bottom: 10px !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+  }
+  .footer-contact .contact-item .contact-text {
+    color: rgba(255, 255, 255, 0.7) !important;
+    margin-bottom: 0 !important;
+    font-size: 15px !important;
+  }
+  .footer-contact .border-item::before {
+    content: none;
+  }
+  .footer-contact .border-item::after {
+    content: none;
+  }
+  .footer-contact .border-item {
+    border-style: none;
+  }
+  .footer-top {
+    padding-top: 40px;
+  }
+  .footer-top .footer-about p {
+    margin: 0 0 26px;
+    font-size: 14px;
+  }
+  .footer-top .footer-about .margin-remove {
+    margin: 0 0 15px !important;
+    font-size: 14px;
+  }
+  .footer-top .footer-item .footer-date {
+    margin-bottom: 30px;
+  }
+  .footer-top .footer-item .footer-text {
+    margin-bottom: 30px;
+  }
+  .footer-top .list-item {
+    font-size: 14px;
+  }
+  .footer-top .footer-title {
+    margin-top: 25px;
+  }
+  .footer-top .footer-title p {
+    font-size: 14px;
+  }
+}
+
+.loading-modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: .3s;
+  transition: .3s;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loading-modal img {
+  width: 100px;
+}
+
+.loading-modal--closed {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loading-modal p {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 15px 0;
 }
 /*# sourceMappingURL=style.css.map */

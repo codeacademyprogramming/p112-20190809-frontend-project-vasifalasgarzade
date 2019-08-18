@@ -19,6 +19,10 @@
 </head>
 
 <body>
+    <div class="loading-modal">
+        <img src="./img/loading.svg">
+        <p>WELCOME TO FRONTEND PROJECT</p>
+    </div>
     <div class="search-modal">
         <span id="close-modal" class="close-button"><i class="far fa-times-circle"></i></span>
         <input class="input-desing" type="text" placeholder=":eg Comuter Techonolgy">
@@ -328,7 +332,7 @@
 
 
     <main>
-        <section class="owl-carousel owl-theme main-slider">
+        <section class="slider-sec-1 owl-carousel owl-theme main-slider">
             <div class="slider-item">
                 <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/slider/home1/slide1.jpg" alt="slider-image-1">
                 <div class="slider-item-content text-center">
@@ -368,7 +372,7 @@
         <section id="section-liberary">
             <div class="container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-3 col-12 mb-5">
                         <div class="trending">
                             <div class="trending-icon">
                                 <i class="fas fa-american-sign-language-interpreting"></i>
@@ -379,7 +383,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12 mb-5">
                         <div class="trending">
                             <div class="trending-icon">
                                 <i class="fas fa-book"></i>
@@ -390,7 +394,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12 mb-5">
                         <div class="trending">
                             <div class="trending-icon">
                                 <i class="fas fa-user"></i>
@@ -401,7 +405,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-3 col-12 mb-5">
                         <div class="trending">
                             <div class="trending-icon">
                                 <i class="fas fa-graduation-cap"></i>
@@ -423,7 +427,7 @@
                     <p>Fusce sem dolor, interdum in fficitur at, faucibus nec lorem. Sed nec molestie justo.</p>
                 </div>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                         <div class="about-img-item">
                             <img src="./img/about.jpg" alt="about-image">
                             <a href="https://www.youtube.com/watch?v=3f9CAMoj3Ec" title="video-logo">
@@ -435,7 +439,7 @@
 
 
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                         <div class="about-text-items">
                             <h3>WELCOME TO EDULEARN</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
@@ -680,7 +684,7 @@
         <section class="acheivements">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                         <div class="acheivements-countent">
                             <h2>ACHEIVEMENTS</h2>
                             <div class="acheivements-text">
@@ -692,31 +696,39 @@
 
                         </div>
                     </div>
-                    <div class="col-6 mrgn-counter">
+                    <div class="col-md-6 col-12 mrgn-counter">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-md-6 col-12">
                                 <div class="rs-counter-list">
-                                    <h2 class="counter-number plus">60</h2>
+                                    <h2 class="counter-number plus">
+                                        <span class="counter-value" data-count="60">0</span>
+                                    </h2>
                                     <h4 class="counter-desc">TEACHERS</h4>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6 col-12">
                                 <div class="rs-counter-list">
-                                    <h2 class="counter-number plus">40</h2>
+                                    <h2 class="counter-number plus">
+                                        <span class="counter-value" data-count="40">0</span>
+                                    </h2>
                                     <h4 class="counter-desc">COURSES</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-md-6 col-12">
                                 <div class="rs-counter-list">
-                                    <h2 class="counter-number plus">900</h2>
+                                    <h2 class="counter-number plus">
+                                        <span class="counter-value" data-count="400">0</span>
+                                    </h2>
                                     <h4 class="counter-desc">STUDENTS</h4>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-md-6 col-12">
                                 <div class="rs-counter-list">
-                                    <h2 class="counter-number plus">3675</h2>
+                                    <h2 class="counter-number plus">
+                                        <span class="counter-value" data-count="3675">0</span>
+                                    </h2>
                                     <h4 class="counter-desc">Satisfied Client</h4>
                                 </div>
                             </div>
@@ -775,7 +787,7 @@
 
                         <div class="event-items">
                             <div class="event-img">
-                                <img src="./img/even-img-1.jpg" alt="student-image">
+                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/2.jpg" alt="student-image">
                                 <a class="event-link" href="#"><i class="fas fa-link"></i></a>
                             </div>
                             <div class="event-work-item">
@@ -811,7 +823,7 @@
 
                         <div class="event-items">
                             <div class="event-img">
-                                <img src="./img/even-img-1.jpg" alt="student-image">
+                                <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/events/3.jpg" alt="student-image">
                                 <a class="event-link" href="#"><i class="fas fa-link"></i></a>
                             </div>
                             <div class="event-work-item">
@@ -980,7 +992,7 @@
                     <p>Fusce sem dolor, interdum in efficitur at, faucibus nec lorem. Sed nec molestie justo.</p>
                 </div>
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                         <div class="news-normal-block">
                             <div class="new-img">
                                 <a href="#">
@@ -1002,7 +1014,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6 col-12">
                         <div class="news-list-block">
                             <div class="news-list-item">
                                 <div class="news-img">
@@ -1207,6 +1219,60 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="item">
+                                <div class="people-image">
+                                    <img src="./img/people-1.jpg" alt="Jhon Smith">
+                                </div>
+                                <div class="people-item">
+                                    <div class="people-desc">
+                                        <h4 class="people-name">Aliana D’suza</h4>
+                                        <p>
+                                            Tempor non elit nec augue nec gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="people-image">
+                                    <img src="./img/people-1.jpg" alt="Jhon Smith">
+                                </div>
+                                <div class="people-item">
+                                    <div class="people-desc">
+                                        <h4 class="people-name">Aliana D’suza</h4>
+                                        <p>
+                                            Tempor non elit nec augue nec gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="people-image">
+                                    <img src="./img/people-1.jpg" alt="Jhon Smith">
+                                </div>
+                                <div class="people-item">
+                                    <div class="people-desc">
+                                        <h4 class="people-name">Aliana D’suza</h4>
+                                        <p>
+                                            Tempor non elit nec augue nec gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="people-image">
+                                    <img src="./img/people-1.jpg" alt="Jhon Smith">
+                                </div>
+                                <div class="people-item">
+                                    <div class="people-desc">
+                                        <h4 class="people-name">Aliana D’suza</h4>
+                                        <p>
+                                            Tempor non elit nec augue nec gravida et sed velit. Aliquam tempus eget lorem ut malesuada. Phasellus dictum est sed libero posuere dignissim.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
 
                         </div>
                     </div>
@@ -1279,7 +1345,7 @@
             <section class="footer-contact">
 
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4 col-12 mt-3">
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <h4 class="contact-title">Address</h4>
@@ -1288,7 +1354,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-12 mt-3">
                         <div class="contact-item border-item">
                             <i class="fas fa-phone"></i>
                             <h4 class="contact-title">Phone Number</h4>
@@ -1297,7 +1363,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-4 col-12 mt-3">
                         <div class="contact-item border-item">
                             <i class="fas fa-map-marker-alt"></i>
                             <h4 class="contact-title">Email Address</h4>
@@ -1314,14 +1380,14 @@
             <section class="footer-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-md-3 col-12">
                             <div class="footer-about">
                                 <img src="http://keenitsolutions.com/products/html/edulearn/edulearn-demo/images/logo-footer.png" alt="footer-logo">
                                 <p>We create Premium Html Themes for more than three years. Our team goal is to reunite the elegance of unique.</p>
                                 <p class="margin-remove">We create Unique and Easy To Use Flexible Html Themes.</p>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-12">
                             <h5 class="footer-title">RECENT POSTS</h5>
                             <div class="recent-footer">
                                 <div class="footer-item">
@@ -1346,7 +1412,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-12">
                             <h5 class="footer-title">OUR SITEMAP</h5>
                             <ul class="list-item">
                                 <li><a href="#"><i class="fas fa-chevron-right"></i>home</a></li>
@@ -1363,7 +1429,7 @@
                                 <li><a href="#"><i class="fas fa-chevron-right"></i>home</a></li>
                             </ul>
                         </div>
-                        <div class="col-3 ">
+                        <div class="col-md-3 col-12">
                             <h5 class="footer-title">NEWSLETTER</h5>
                             <p class="margin-text">Sign Up to Our Newsletter to Get Latest Updates & Services</p>
                             <form class="footer-form">
