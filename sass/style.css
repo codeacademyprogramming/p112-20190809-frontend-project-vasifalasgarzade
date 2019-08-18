@@ -480,10 +480,70 @@ nav .menu-nav .icons-desing span:hover {
   right: -345px;
   width: 345px;
   background-color: rgba(0, 0, 0, 0.9);
-  z-index: 100;
+  z-index: 99999;
   -webkit-transition: .3s;
   transition: .3s;
   height: 100vh;
+}
+
+.side-menu .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  padding: 15px;
+  color: #fff;
+}
+
+.side-menu .panel li {
+  border-bottom: 1px solid rgba(87, 81, 81, 0.623);
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.side-menu .accordion {
+  outline: none !important;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  position: relative;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.side-menu .accordion:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.side-menu .accordion::after {
+  position: absolute;
+  content: "\f078";
+  font-family: "Font Awesome 5 Pro";
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  right: 8px;
+  top: 5px;
+  cursor: pointer;
+  z-index: 999;
+  text-align: center;
+  font-size: 15px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  font-weight: 700;
 }
 
 .side-menu--open {
@@ -826,7 +886,7 @@ nav .menu-nav .icons-desing span:hover {
   outline: none !important;
   display: block;
   background-color: rgba(240, 240, 240, 0.8);
-  color: #444;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -840,28 +900,27 @@ nav .menu-nav .icons-desing span:hover {
   transition: .3s;
 }
 
+.accordion:hover {
+  background-color: #ff3115;
+}
+
 .accordion::after {
   position: absolute;
-  content: "\f078";
-  font-family: FontAwesome;
-  color: #ffffff;
+  content: "\f0da";
+  font-weight: 700;
+  color: black;
   width: 32px;
   height: 32px;
   line-height: 30px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
   right: 8px;
   top: 5px;
   cursor: pointer;
-  z-index: 999;
+  z-index: 99;
   text-align: center;
   font-size: 15px;
   transition: 0.4s;
   -webkit-transition: 0.4s;
-}
-
-.accordion:hover {
-  background-color: #ff3115;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .panel {
@@ -924,7 +983,7 @@ nav .menu-nav .icons-desing span:hover {
 
 .popular-section .popular-card-items .popular-image-item .link-icon i {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 700;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition: all 0.3s ease 0s;
@@ -1188,7 +1247,7 @@ nav .menu-nav .icons-desing span:hover {
 .events-section .event-img .event-link i {
   font-family: "Font Awesome 5 Pro";
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 700;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition: all 0.3s ease 0s;
@@ -1956,6 +2015,7 @@ nav .menu-nav .icons-desing span:hover {
 .people-section .people-item .people-desc {
   padding: 42px 0;
   position: relative;
+  font-weight: 700;
   padding: 42px 0;
   position: relative;
 }
@@ -1966,7 +2026,7 @@ nav .menu-nav .icons-desing span:hover {
   font-size: 26px;
   color: #ff3115;
   top: 0;
-  content: "\f102";
+  content: "\f10d";
   left: 0;
 }
 
@@ -1989,7 +2049,7 @@ nav .menu-nav .icons-desing span:hover {
   font-family: "Font Awesome 5 Pro";
   font-size: 26px;
   color: #ff3115;
-  content: "\f103";
+  content: "\f10d";
   bottom: 0;
   right: 0;
 }
